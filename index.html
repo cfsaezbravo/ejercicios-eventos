@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="css/main.css">
 	<meta charset="UTF-8">
 	<title>Ejercicio Eventos</title>
 </head>
-<body>
+
+<body onload = "fullLoad()">
 	
+	<button id="demo" class="enjoy-css">Click</button>
+
+	<br><br><br>
+
+	<label>Caja 1 </label>
+
+	<input onmouseover="ratonEncima()" class="Ingres" placeholder="Ingrese información..." />
+
+	<br><br><br>
+
+	<label>Caja 2</label>
+
+	<input onmouseout="ratonNoEncima()" class="Ingres" placeholder="Ingrese información...">
+
 	<script src = "js/main.js"></script>
 </body>
 </html>
